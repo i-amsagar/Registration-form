@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Created BY - Sagar Developer -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login and Signup Form</title>
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="/assets/style.css">
+    <!-- Boxicons CSS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="container forms">
+        <!-- Login Form -->
+        <div class="form login">
+            <!-- form-container start -->
+            <div class="form-content">
+                <h2 class="heading">Login</h2>
+                <form action="#">
+                    <!-- Emial filed -->
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input" required>
+                    </div>
+                    <!-- Password Filed -->
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <!-- Forgot Password -->
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div>
+                    <!-- Login Button -->
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+            <!-- form-container close -->
+
+            <div class="line"></div>
+            <!-- Login With Social Media -->
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="/assets/images/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="form signup">
+            <!-- form-container start -->
+            <div class="form-content">
+                <h2 class="heading">Signup</h2>
+                <form action="#">
+                    <!-- Name Field -->
+                    <div class="field input-field">
+                        <input type="text" placeholder="User Name" class="input" required>
+                    </div>
+                    <!-- Email Field -->
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input" required>
+                    </div>
+                    <!-- Password Field -->
+                    <div class="field input-field">
+                        <input type="password" placeholder="Create Password" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <!-- Confirm Password Field -->
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirm Password" class="password" required>
+                    </div>
+                    <!-- SignUp Button -->
+                    <div class="field button-field">
+                        <button>Signup</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+            <!-- form-container close -->
+
+            <div class="line"></div>
+            <!-- Login With Social Media -->
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="/assets/images/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JavaScript FILE LINK -->
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>
